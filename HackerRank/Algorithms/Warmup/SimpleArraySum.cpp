@@ -4,12 +4,13 @@ using namespace std;
 
 int main()
 {
-   int n, i;
+   int n;
+   int i=0;
    cin>>n;
    int sum=0;
    int ar[n];
-   
-    for(i=0; i<n; i++)
+
+    for( ;i<n; i++)
    {
      cin>>ar[i];
 
