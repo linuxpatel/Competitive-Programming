@@ -8,7 +8,7 @@ int main()
   int N{}; //N -> integer
   cin>>N;
 
-  for(int i=0; i<10; i++)
+  for(int i=0; i<N; i++)
   {
     cin>>A[i];
   }
